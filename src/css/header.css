@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Now Display Bold";
+  }
+  
+  /* Estilos para el header */
+  .header {
+    background-color: black;
+  }
+  
+  .header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 20px 30px;
+    height: 50px;
+  }
+  
+  .header__nav-menu {
+    color: #ffff;
+    font-size: 30px;
+  }
+  
+  .header__logo {
+    width: 40px;
+    border-radius: 10px;
+  }
+  
+  .header__nav-login {
+    color: grey;
+    font-size: 30px;
+  }
+
+  @media (min-width: 768px) {
+    /* Estilos para el header */
+    .header__nav {
+      justify-content: space-between;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+}
+
